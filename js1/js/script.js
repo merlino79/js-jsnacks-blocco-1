@@ -1,16 +1,34 @@
-var parola_1 = prompt("priama parola");
-console.log(parola_1.length);
-var parola_2 = prompt("seconda parola");
-console.log(parola_2.length);
+//var primo_numero = parseInt(prompt("primo numero"));
+//console.log(primo_numero)
+
+//var secondo_numero = parseInt(prompt("secondo  numero"));
+//console.log(secondo_numero)
+
+
+// if (primo_numero === secondo_numero) {
+//     console.log("siete uguali")
+// } else if (primo_numero > secondo_numero) {
+//     console.log("sei maggiore " + primo_numero)
+// } else {
+//     console.log("sei  minore " + primo_numero)
+// }
 
 
 
 
+//
 
-if (parola_1.length > parola_2.length) {
-    alert("parola 1 lunga");
 
-} else if (parola_2.length > parola_1.length) {
-    console.log("parola 2 piu lung")
-} else(parola_1.length = parola_2.length)
-console.log("sono ugulai");
+var primo_numero = parseInt(prompt("primo  numero"));
+var secondo_numero = parseInt(prompt("secondo  numero"));
+
+if (primo_numero === secondo_numero) {
+    console.log("i numeri sono uguali")
+
+
+} else if (primo_numero > secondo_numero) {
+    console.log("sei maggiore")
+    document.getElementById("msg").innerHTML = "sei maggiore"
+} else {
+    console.log("primo numero è minore")
+}
