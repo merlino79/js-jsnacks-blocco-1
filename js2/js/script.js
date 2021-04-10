@@ -4,10 +4,11 @@ var seconda_parola = prompt("seconda parola");
 console.log(prima_parola.length)
 console.log(seconda_parola.length)
 
-if (prima_parola === seconda_parola) {
+if (prima_parola.length === seconda_parola.length) {
     console.log("siete uguali");
-} else if (prima_parola < seconda_parola) {
-    console.log("prima parola")
+    alert("siete uguali")
+} else if (prima_parola.length < seconda_parola.length) {
+    console.log(prima_parola + "  " + seconda_parola)
 } else {
-    console.log("seconda parola")
+    console.log(seconda_parola + " " + prima_parola)
 }
